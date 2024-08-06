@@ -12,13 +12,13 @@ GPS 4 Photos, Code 4 My Life.
 从照片库中批量读取GPS信息保存到csv文件
 
 ```bash
-python gps.py photos_dir gps.csv
+python gps.py photos_path gps.csv
 ```
 
 从GPS csv中读取最接近的时间的GPS信息写入到照片
 
 ```bash
-python gps.py gps.csv photos_dir
+python gps.py gps.csv photos_path
 ```
 
 支持单张图片和图片目录，支持多线程（ `-t` 或 `--threads` 指定线程数量）
